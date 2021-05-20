@@ -4,7 +4,5 @@
 </p>
 
 <p>
-  This is the E-cell, UIET KUK website made using "HTML, CSS, and JavaScript".
-  <br>
-
-    </p>
+  This is the E-cell, UIET KUK website made using "HTML, CSS, and JavaScript" 
+</p>
