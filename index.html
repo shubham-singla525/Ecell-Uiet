@@ -52,7 +52,7 @@
             <h3 class="card-title">EN-ACT Week</h3>
             <p class="card-text">A 7 Day Program For Aspiring Enterpreneurs
            </p>
-            <a href="#up-events" class="linkButton btn btn-primary">Know More</a>
+            <a href="#up-events" class="linkButton btn btn-primary" onclick="myFunction1()">Know More</a>
           </div>
       </div>
   </div>
@@ -875,6 +875,12 @@
 
 function myFunction() {
     document.getElementById("myModal").style.display = "none";
+    setTimeout(function () {
+      $("#myModal").modal("hide");
+    }, 100);
+  }
+
+  function myFunction1(){
     setTimeout(function () {
       $("#myModal").modal("hide");
     }, 100);
