@@ -539,9 +539,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
   }
-
 }
-
 @media screen and (max-width: 480px){
   
    #hero .carousel-container{
@@ -558,6 +556,15 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
   }
 }
+@media screen and (min-width: 490px){
+ #hero .hero-container{
+    height: 100vh;
+  }
+  .div3{
+    height: 100%;
+  }
+
+  }
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -628,7 +635,6 @@ text-align: center;
   .div6{
     padding-left: 30px;
   }
-
 }
 
 /*--------------------------------------------------------------
