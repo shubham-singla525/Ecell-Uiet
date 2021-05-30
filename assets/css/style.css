@@ -551,6 +551,24 @@ section {
 .section-bg {
   background-color: #f1f1f1;
 }
+.section-title2 {
+  text-align: center;
+  padding-bottom: 30px;
+  box-shadow: 1px 0 8px black;
+}
+
+.section-title2 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #e33b3b;
+}
+
+.section-title2 p {
+  margin-bottom: 0;
+}
 
 .section-title {
   text-align: center;
@@ -568,6 +586,31 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+.div4{
+  display: flex;
+}
+.div5{
+  margin: auto;
+  width: 50%;
+  margin: 10px;
+  }
+.div5 img{
+position: center;
+}
+.div6{
+  margin: auto;
+ margin: 10px;
+  width: 50%;
+text-align: center;
+}
+@media screen and (max-width: 480px){
+  .div4{
+    display: grid;
+  }
+  .div6{
+    padding-left: 30px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1798,6 +1841,7 @@ section {
  .footer-distributed .footer-center i{
  margin-left: 0;
  }
+ 
  .main {
  line-height: normal;
  font-size: auto;
