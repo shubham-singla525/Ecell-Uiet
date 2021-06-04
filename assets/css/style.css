@@ -1,7 +1,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #CCCCCC;
 }
 
 a {
@@ -660,11 +660,21 @@ text-align: center;
 --------------------------------------------------------------*/
 .about .content {
   padding: 30px 0;
+
 }
+.about{
+ 
+   background-image:url(../img/f5.jfif);
+   color:white;
+   
+background-size: cover;
+ }
 
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
+  color: black;
+  text-shadow: 2px 1px 1px red;
 }
 
 .about .content p {
@@ -1398,7 +1408,26 @@ text-align: center;
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .contact-info {
+#contact{
+  background-image: url(../img/f1.jfif);
+ background-size: cover;
+position: relative;
+
+}
+.section-title h1{
+  color: black;
+   text-shadow: 2px 1px 2px #FFFF00;
+  
+}
+.section-title p{
+  color: black;
+  font-size: 25px;
+  color: #0000CC;
+}
+.container-fluid h1{
+  color: black;
+}
+ .contact .contact-info {
   margin-bottom: 20px;
   text-align: center;
 }
