@@ -645,11 +645,17 @@ text-align: center;
 
 }
 .about{
- 
    background-image:url(../img/f5.jfif);
-   color:white;
+   color:rgb(17, 7, 7);
    
 background-size: cover;
+}
+.abou{
+ 
+   /* background-image:url(../img/f5.jfif); */
+   color:rgb(17, 7, 7);
+   
+/* background-size: cover; */
  }
 
 .about .content h3 {
