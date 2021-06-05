@@ -1940,3 +1940,10 @@ color:#fff;
   text-align:center;
 }
 /*******************Popup Section styling ends********/
+
+/* Past events css */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
