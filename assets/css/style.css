@@ -539,7 +539,6 @@ h1, h2, h3, h4, h5, h6 {
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
   }
-
 }
 @media screen and (max-width: 480px){
   
@@ -565,23 +564,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
   }
 
-
-@media screen and (max-width: 480px){
-  
-   #hero .carousel-container{
-    display: grid;
   }
-  .div3{
-     width: 100%;
-  height: 100vh;
-  }
-  #hero .hero-container{
-    height: 100vh;
-  }
-  .carousel-item{
-    opacity: 1;
-  }
-}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -651,7 +634,6 @@ text-align: center;
   .div6{
     padding-left: 30px;
   }
-
 }
 
 
@@ -663,22 +645,37 @@ text-align: center;
 
 }
 .about{
- 
    background-image:url(../img/f5.jfif);
-   color:white;
+   color:rgb(17, 7, 7);
    
 background-size: cover;
+}
+.abou{
+ 
+   /* background-image:url(../img/f5.jfif); */
+   color:rgb(17, 7, 7);
+   
+/* background-size: cover; */
  }
 
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: black;
+  color: azure;
   text-shadow: 2px 1px 1px red;
 }
 
 .about .content p {
   margin-bottom: 0;
+  color: azure;
+}
+.about .content b {
+  margin-bottom: 0;
+  color: azure;
+}
+.about .content li {
+  margin-bottom: 0;
+  color: azure;
 }
 
 .about .content .icon-box {
@@ -1987,3 +1984,10 @@ color:#fff;
   text-align:center;
 }
 /*******************Popup Section styling ends********/
+
+/* Past events css */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
