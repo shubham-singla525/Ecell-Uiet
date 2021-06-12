@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
-.navbar ul {
+.navbar ul { 
   margin: 0;
   padding: 0;
   display: flex;
@@ -368,6 +368,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(17, 17, 17, 0.8);
   overflow: hidden;
   padding: 0;
+  margin-bottom: 4rem;
 }
 
 #hero .carousel-item {
@@ -641,32 +642,46 @@ text-align: center;
 # About
 --------------------------------------------------------------*/
 .about .content {
-  padding: 30px 0;
+  padding: 30px;
 
 }
 .about{
-   background-image:url(../img/f5.jfif);
+  background-image:url(../img/f5.jfif);
    color:rgb(17, 7, 7);
-   
-background-size: cover;
-}
-.abou{
- 
-   /* background-image:url(../img/f5.jfif); */
-   color:rgb(17, 7, 7);
-   
-/* background-size: cover; */
- }
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 
-.about .content h3 {
+}
+
+
+ .about .container h1  {
+  font-weight: 700;
+  font-size: 56px;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
+}
+.about .content h3  {
   font-weight: 700;
   font-size: 34px;
-  color: black;
+  color: azure;
   text-shadow: 2px 1px 1px red;
 }
 
 .about .content p {
   margin-bottom: 0;
+  color: azure;
+}
+.about .content b {
+  margin-bottom: 0;
+  color: azure;
+}
+.about .content li {
+  margin-bottom: 0;
+  color: azure;
 }
 
 .about .content .icon-box {
@@ -693,8 +708,14 @@ background-size: cover;
 
 .about .image {
   background: url("../img/uiet.jpg") center center no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   min-height: 400px;
+  margin-top: 2.25rem;
+ 
+  height:150px;
+  width:100%;
+ 
+  
 }
 .about .image1 {
   background: url("../img/past-events/past-event-01.png") center center no-repeat;
@@ -732,13 +753,32 @@ background-size: cover;
     text-align: center;
   }
   .about .image img {
-    max-width: 80%;
+    max-width: 40%;
   }
 }
 
 @media (max-width: 667px) {
   .about .image img {
     max-width: 100%;
+  }
+  .about .image{
+    height:200px;
+    width:80%;
+    margin:auto;
+  }
+}
+@media(max-width:350px){
+  .about{
+    width:100%;
+  }
+  .about .image{
+    height:150px;
+    width:70%;
+    margin:auto;
+  }
+  .about .content{
+    width:70%;
+    margin:auto;
   }
 }
 
@@ -750,7 +790,7 @@ background-size: cover;
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding: 0 0 30px 0;
+  padding: 4rem 0;
 }
 
 .counts .count-box {
@@ -796,6 +836,42 @@ background-size: cover;
 .counts .count-box a:hover {
   color: #777777;
 }
+@media(max-width:768px){
+  .row div{
+    margin:1rem;
+
+  }
+  .row div .img-fluid{
+    display:inline-block;
+    margin-left:7rem;
+    height:200px;
+    width:200px;
+  }
+}
+@media(max-width:500){
+  .row div{
+    margin:1rem;
+
+  }
+  .row div .img-fluid{
+    display:inline-block;
+    margin-left:5rem;
+    height:200px;
+    width:200px;
+  }
+}
+@media(max-width:400px){
+  .row div{
+    margin:1rem;
+
+  }
+  .row div .img-fluid{
+    display:inline-block;
+    margin-left:1.5rem;
+    height:200px;
+    width:200px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Clients
@@ -827,11 +903,37 @@ background-size: cover;
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background-image:url(../img/f5.jfif);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services .section-title h2{
+  font-weight: 700;
+  font-size: 56px;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
+}
+.services .section-title p{
+  color: azure;
+  text-align: center;
+}
 .services .icon-box {
   margin-bottom: 20px;
   text-align: center;
 }
 
+.about .container h1  {
+  font-weight: 700;
+  font-size: 56px;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
+}
 .services .icon {
   display: inline-flex;
   justify-content: center;
@@ -890,8 +992,64 @@ background-size: cover;
 }
 
 /*--------------------------------------------------------------
-# Why Us
+# Upcoming events css starts
 --------------------------------------------------------------*/
+a.register{
+  color:#ccc;
+  pointer-events: none;
+
+}
+.events div{
+  margin-left:0px;
+  display:inline-block;
+  overflow:hidden;
+  width:80%;
+}
+@media(max-width:768px){
+.events div{
+margin:2rem;
+
+}
+}
+@media(max-width:480px){
+  .events div{
+   width:70%;
+   padding:1rem;
+  }
+  .div5 img{
+    padding-right:1rem;
+   height:250px;
+   width:250px;
+  }
+  .div6 video{
+    height:250px;
+    width:250px;
+    
+
+  }
+}
+@media(max-width:400px){
+  .events div{
+    width:70%;
+    padding:1rem;
+   }
+   .div5 img{
+    padding-right:1rem;
+    height:150px;
+    width:150px;
+   }
+   .div6 video{
+     height:150px;
+     width:150px;
+     
+ 
+   }
+}
+/*--------------------------------------------------------------
+# Upcoming events css ends
+--------------------------------------------------------------*/
+
+
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1304,6 +1462,30 @@ background-size: cover;
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+.faq{
+  background-image: url(../img/f5.jfif);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-details h2{
+  font-weight: 700;
+  font-size: 56px;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
+}
+.section-details p{
+  font-weight: 700;
+  font-size: 25px;
+  color: azure;
+  text-align: center;
+  margin-bottom: 1rem;
+
+}
 
 .faq .faq-list {
   padding: 0 100px;
@@ -1397,20 +1579,30 @@ background-size: cover;
 # Contact
 --------------------------------------------------------------*/
 #contact{
-  background-image: url(../img/f1.jfif);
+  background-image: url(../img/f5.jfif);
  background-size: cover;
 position: relative;
+margin-top:4rem;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 .section-title h1{
-  color: black;
-   text-shadow: 2px 1px 2px #FFFF00;
+  font-weight: 700;
+  font-size: 56px;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
   
 }
 .section-title p{
-  color: black;
+  font-weight: 700;
   font-size: 25px;
-  color: #0000CC;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
 }
 .container-fluid h1{
   color: black;
@@ -1546,6 +1738,7 @@ position: relative;
   .contact .contact-address, .contact .contact-phone, .contact .contact-email {
     padding: 20px 0;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -1592,6 +1785,15 @@ position: relative;
   .breadcrumbs ol li {
     display: inline-block;
   }
+}
+.section-title h1{
+  color:#c70202;
+}
+.inner-page .container h2{
+  color:#343a40
+}
+.inner-page .container p,.inner-page li{
+  color:#8f9296
 }
 
 /*--------------------------------------------------------------
@@ -1768,12 +1970,12 @@ position: relative;
  
 .footer-distributed h3{
  color:  #ffffff;
- font: normal 36px 'Cookie', cursive;
+ font: normal 36px  "Open Sans", sans-serif;
  margin: 0;
 }
  
 .footer-distributed h3 span{
- color:  #5383d3;
+ color:  #e33b3b;
 }
  
  
