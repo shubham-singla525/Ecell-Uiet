@@ -649,6 +649,10 @@ text-align: center;
   background-image:url(../img/f5.jfif);
    color:rgb(17, 7, 7);
    background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 
 }
 
@@ -710,6 +714,7 @@ text-align: center;
  
   height:150px;
   width:100%;
+ 
   
 }
 .about .image1 {
@@ -901,6 +906,10 @@ text-align: center;
 .services{
   background-image:url(../img/f5.jfif);
   background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .services .section-title h2{
   font-weight: 700;
@@ -1455,7 +1464,11 @@ margin:2rem;
 --------------------------------------------------------------*/
 .faq{
   background-image: url(../img/f5.jfif);
-  background-size: 100% 100%;;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-details h2{
@@ -1570,6 +1583,10 @@ margin:2rem;
  background-size: cover;
 position: relative;
 margin-top:4rem;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 .section-title h1{
