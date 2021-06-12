@@ -368,6 +368,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(17, 17, 17, 0.8);
   overflow: hidden;
   padding: 0;
+  margin-bottom: 4rem;
 }
 
 #hero .carousel-item {
@@ -649,6 +650,7 @@ text-align: center;
    color:rgb(17, 7, 7);
    
 background-size: cover;
+
 }
 .abou{
  
@@ -658,7 +660,14 @@ background-size: cover;
 /* background-size: cover; */
  }
 
-.about .content h3 {
+ .about .container h1  {
+  font-weight: 700;
+  font-size: 56px;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
+}
+.about .content h3  {
   font-weight: 700;
   font-size: 34px;
   color: azure;
@@ -704,6 +713,7 @@ background-size: cover;
   background: url("../img/uiet.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
+  margin-top: 2.25rem;
 }
 .about .image1 {
   background: url("../img/past-events/past-event-01.png") center center no-repeat;
@@ -759,7 +769,7 @@ background-size: cover;
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding: 0 0 30px 0;
+  padding: 4rem 0;
 }
 
 .counts .count-box {
@@ -805,6 +815,18 @@ background-size: cover;
 .counts .count-box a:hover {
   color: #777777;
 }
+@media(max-width:768px){
+  .row div{
+    margin:1rem;
+
+  }
+  .row div .img-fluid{
+    display:inline-block;
+    margin-left:9rem;
+    height:200px;
+    width:200px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Clients
@@ -836,11 +858,33 @@ background-size: cover;
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background-image:url(../img/f5.jfif);
+  background-size: 100% 100%;
+}
+.services .section-title h2{
+  font-weight: 700;
+  font-size: 56px;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
+}
+.services .section-title p{
+  color: azure;
+  text-align: center;
+}
 .services .icon-box {
   margin-bottom: 20px;
   text-align: center;
 }
 
+.about .container h1  {
+  font-weight: 700;
+  font-size: 56px;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
+}
 .services .icon {
   display: inline-flex;
   justify-content: center;
@@ -899,8 +943,28 @@ background-size: cover;
 }
 
 /*--------------------------------------------------------------
-# Why Us
+# Upcoming events css starts
 --------------------------------------------------------------*/
+a.register{
+  color:#ccc;
+  pointer-events: none;
+
+}
+.events div{
+  margin:2rem;
+  display:inline-block;
+}
+@media(max-width:768px){
+.events div{
+margin:5rem;
+padding:1rem;
+}
+}
+/*--------------------------------------------------------------
+# Upcoming events css ends
+--------------------------------------------------------------*/
+
+
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1313,6 +1377,26 @@ background-size: cover;
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+.faq{
+  background-image: url(../img/f5.jfif);
+  background-size: 100% 100%;;
+}
+
+.section-details h2{
+  font-weight: 700;
+  font-size: 56px;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
+}
+.section-details p{
+  font-weight: 700;
+  font-size: 25px;
+  color: azure;
+  text-align: center;
+  margin-bottom: 1rem;
+
+}
 
 .faq .faq-list {
   padding: 0 100px;
@@ -1406,20 +1490,26 @@ background-size: cover;
 # Contact
 --------------------------------------------------------------*/
 #contact{
-  background-image: url(../img/f1.jfif);
+  background-image: url(../img/f5.jfif);
  background-size: cover;
 position: relative;
+margin-top:4rem;
 
 }
 .section-title h1{
-  color: black;
-   text-shadow: 2px 1px 2px #FFFF00;
+  font-weight: 700;
+  font-size: 56px;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
   
 }
 .section-title p{
-  color: black;
+  font-weight: 700;
   font-size: 25px;
-  color: #0000CC;
+  color: azure;
+  text-shadow: 2px 1px 1px red;
+  text-align: center;
 }
 .container-fluid h1{
   color: black;
@@ -1555,6 +1645,7 @@ position: relative;
   .contact .contact-address, .contact .contact-phone, .contact .contact-email {
     padding: 20px 0;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -1601,6 +1692,15 @@ position: relative;
   .breadcrumbs ol li {
     display: inline-block;
   }
+}
+.section-title h1{
+  color:#c70202;
+}
+.inner-page .container h2{
+  color:#343a40
+}
+.inner-page .container p,.inner-page li{
+  color:#8f9296
 }
 
 /*--------------------------------------------------------------
@@ -1777,12 +1877,12 @@ position: relative;
  
 .footer-distributed h3{
  color:  #ffffff;
- font: normal 36px 'Cookie', cursive;
+ font: normal 36px  "Open Sans", sans-serif;
  margin: 0;
 }
  
 .footer-distributed h3 span{
- color:  #5383d3;
+ color:  #e33b3b;
 }
  
  
