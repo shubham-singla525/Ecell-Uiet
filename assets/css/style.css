@@ -645,10 +645,12 @@ text-align: center;
   padding: 30px;
 
 }
+
 .about{
   background-image:url(../img/f5.jfif);
    color:rgb(17, 7, 7);
    background-size: cover;
+   z-index: 1000;
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
