@@ -1591,7 +1591,7 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
-.section-title h1{
+.section-titles h1{
   font-weight: 700;
   font-size: 56px;
   color: azure;
@@ -1599,7 +1599,7 @@ background-size: cover;
   text-align: center;
   
 }
-.section-title p{
+.section-titles p{
   font-weight: 700;
   font-size: 25px;
   color: azure;
@@ -1709,6 +1709,14 @@ background-size: cover;
   transition: 0.4s;
   border-radius: 4px;
 }
+.form-control{
+  width:100%;
+}
+.form-box{
+  width:50%;
+  height:500px;
+  margin-top:4rem;
+}
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #c70202;
@@ -1740,6 +1748,26 @@ background-size: cover;
   .contact .contact-address, .contact .contact-phone, .contact .contact-email {
     padding: 20px 0;
   }
+ 
+
+}
+@media (min-width: 400px) {
+  .contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  .contact .contact-address, .contact .contact-phone, .contact .contact-email {
+    padding: 20px 0;
+  }
+  .form-control{
+    width:100%;
+  }
+  .form-box{
+    width:80%;
+    height:500px;
+    margin-top:4rem;
+  }
+ 
 
 }
 
@@ -1937,15 +1965,17 @@ background-size: cover;
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+}*/
+
+ .credits {
+  margin-top:2rem;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  background-color:black;
+  line-height: 1rem;  
 }
 
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
-}
-*/
 
 .footer-distributed{
  background-color: black;
@@ -1954,8 +1984,8 @@ background-size: cover;
  width: 100%;
  text-align: left;
  font: bold 16px sans-serif;
+ padding:55px 50px 5px 50px;
  
- padding: 55px 50px;
  margin-top: 80px;
 }
  
