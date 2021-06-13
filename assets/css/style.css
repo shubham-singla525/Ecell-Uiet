@@ -1770,6 +1770,25 @@ background-size: cover;
  
 
 }
+@media (max-width: 350px) {
+  .contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  .contact .contact-address, .contact .contact-phone, .contact .contact-email {
+    padding: 20px 0;
+  }
+  .form-control{
+    width:100%;
+  }
+  .form-box{
+    width:80%;
+    height:500px;
+    margin-top:4rem;
+  }
+ 
+
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
