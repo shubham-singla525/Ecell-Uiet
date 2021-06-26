@@ -1607,14 +1607,16 @@ PORTFOLIO
 #portfolio{
 background-color: black;
 color: white;
-,margin-bottom:500px;
+margin-bottom:500px;
 }
 .port{
   text-align: center;
 
 }
 .port h1 ,h3{
-    text-shadow: 2px 1px 1px red ; 
+    text-shadow: 2px 1px 1px red ;
+    font-size:56px; 
+    color:#C70039
 }
 .port-main{
   align-content: center;
