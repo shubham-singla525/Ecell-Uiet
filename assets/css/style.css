@@ -687,6 +687,7 @@ text-align: center;
   color: #F4D03F;
   font-weight: 700;
   font-size:20px;
+  text-shadow: -2px 2px #000;
 }
 .about .content b {
   margin-bottom: 0;
@@ -698,7 +699,9 @@ text-align: center;
   color: #F4D03F;
   font-weight: 700;
   font-size:20px;
+  text-shadow: -2px 2px #000;
 }
+
 
 
 .about .content .icon-box {
@@ -938,6 +941,7 @@ text-align: center;
 .services .section-title p{
   color: #F4D03F;
   text-align: center;
+  text-shadow: -1px 1px #000;
 }
 .services .icon-box {
   margin-bottom: 20px;
