@@ -1,7 +1,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #CCCCCC;
+  color: #F4D03F;
 }
 
 a {
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: black;
 }
 
 #header .logo img {
@@ -419,10 +419,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #fff;
+  text-transform: uppercase;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 78px;
   font-weight: 700;
+  
 }
 
 #hero h2 span {
@@ -430,11 +434,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p {
+  text-transform: uppercase;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #fff;
+  
 }
 
 #hero .carousel-inner .carousel-item {
@@ -663,33 +671,37 @@ text-align: center;
  .about .container h1  {
   font-weight: 700;
   font-size: 56px;
-  color: azure;
+  color: #C70039;
   text-shadow: 2px 1px 1px red;
   text-align: center;
 }
 .about .content h3  {
   font-weight: 700;
   font-size: 34px;
-  color: azure;
+  color: #C70039;
   text-shadow: 2px 1px 1px red;
 }
 
 .about .content p {
   margin-bottom: 0;
-  color: white;
+  color: #F4D03F;
   font-weight: 700;
-  font-size:18px;
+  font-size:20px;
+  text-shadow: -2px 2px #000;
 }
 .about .content b {
   margin-bottom: 0;
-  color: azure;
+  color: #C70039;
+  font-size:23px;
 }
 .about .content li {
   margin-bottom: 0;
-  color: white;
+  color: #F4D03F;
   font-weight: 700;
-  font-size:18px;
+  font-size:20px;
+  text-shadow: -2px 2px #000;
 }
+
 
 
 .about .content .icon-box {
@@ -880,7 +892,9 @@ text-align: center;
     width:200px;
   }
 }
-
+.colli{
+  color:black;
+}
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -922,13 +936,14 @@ text-align: center;
 .services .section-title h2{
   font-weight: 700;
   font-size: 56px;
-  color: azure;
+  color: #C70039;
   text-shadow: 2px 1px 1px red;
   text-align: center;
 }
 .services .section-title p{
-  color: azure;
+  color: #F4D03F;
   text-align: center;
+  text-shadow: -1px 1px #000;
 }
 .services .icon-box {
   margin-bottom: 20px;
@@ -1485,14 +1500,14 @@ margin:2rem;
 .section-details h2{
   font-weight: 700;
   font-size: 56px;
-  color: azure;
+  color: #C70039;
   text-shadow: 2px 1px 1px red;
   text-align: center;
 }
 .section-details p{
   font-weight: 700;
   font-size: 25px;
-  color: azure;
+  color: #F4D03F;
   text-align: center;
   margin-bottom: 1rem;
 
@@ -1799,7 +1814,7 @@ background-size: cover;
 .section-titles h1{
   font-weight: 700;
   font-size: 56px;
-  color: azure;
+  color: #C70039;
   text-shadow: 2px 1px 1px red;
   text-align: center;
   
@@ -1807,9 +1822,12 @@ background-size: cover;
 .section-titles p{
   font-weight: 700;
   font-size: 25px;
-  color: azure;
+  color: #F4D03F;
   text-shadow: 2px 1px 1px red;
   text-align: center;
+}
+label{
+  color:#C70039
 }
 .container-fluid h1{
   color: black;
@@ -2439,4 +2457,49 @@ color:#fff;
   height: 50px;
   width: 50px;
   background-color: rgba(0, 0, 0, 0.3);
+}
+/* thumbnails css */
+
+.marg{
+  width: 30%;
+  border-spacing: 15px;
+  margin-right: 20px;
+  width: 120px;
+  height:485px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 6px 0px rgb(0, 0, 0.3);
+  background-color: black;
+  padding-top:15px;
+}
+.hell{
+  color: white;
+}
+.hell p{
+  text-align: center;
+}
+.img-thumbnail img{
+  width: 390px;
+  height:350px;
+}
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+.hero{
+  height:auto;
+  margin-bottom: 30px;
+  background-color: black;
+  box-shadow: 0px 4px 6px 0px rgb(0, 0, 0.3);
+  overflow: hidden;
+  padding-top:15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.hero img{
+  width: 100%;
+  height: 350px;
+  image-orientation: inherit;
 }
