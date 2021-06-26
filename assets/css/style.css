@@ -1,7 +1,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #CCCCCC;
+  color: #F4D03F;
 }
 
 a {
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: black;
 }
 
 #header .logo img {
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(17, 17, 17, 0.8);
   overflow: hidden;
   padding: 0;
-  margin-bottom: 4rem;
+
 }
 
 #hero .carousel-item {
@@ -419,10 +419,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #fff;
+  text-transform: uppercase;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 78px;
   font-weight: 700;
+  
 }
 
 #hero h2 span {
@@ -430,11 +434,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p {
+  text-transform: uppercase;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #fff;
+  
 }
 
 #hero .carousel-inner .carousel-item {
@@ -647,7 +655,7 @@ text-align: center;
 }
 
 .about{
-  background-image:url(../img/f5.jfif);
+  background-image:url(../img/backG.jpg);
    color:rgb(17, 7, 7);
    background-size: cover;
    z-index: 1000;
@@ -655,6 +663,7 @@ text-align: center;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   margin:0px;
 
 }
 
@@ -662,29 +671,35 @@ text-align: center;
  .about .container h1  {
   font-weight: 700;
   font-size: 56px;
-  color: azure;
+  color: #C70039;
   text-shadow: 2px 1px 1px red;
   text-align: center;
 }
 .about .content h3  {
   font-weight: 700;
   font-size: 34px;
-  color: azure;
+  color: #C70039;
   text-shadow: 2px 1px 1px red;
 }
 
 .about .content p {
   margin-bottom: 0;
-  color: azure;
+  color: #F4D03F;
+  font-weight: 700;
+  font-size:20px;
 }
 .about .content b {
   margin-bottom: 0;
-  color: azure;
+  color: #C70039;
+  font-size:23px;
 }
 .about .content li {
   margin-bottom: 0;
-  color: azure;
+  color: #F4D03F;
+  font-weight: 700;
+  font-size:20px;
 }
+
 
 .about .content .icon-box {
   margin-top: 25px;
@@ -709,7 +724,7 @@ text-align: center;
 }
 
 .about .image {
-  background: url("../img/uiet.jpg") center center no-repeat;
+  background: url("../img/uietN.jpg") center center no-repeat;
   background-size: 100% 100%;
   min-height: 400px;
   margin-top: 2.25rem;
@@ -792,7 +807,7 @@ text-align: center;
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding: 4rem 0;
+  padding: 4rem 0;  
 }
 
 .counts .count-box {
@@ -908,7 +923,7 @@ text-align: center;
 # Services
 --------------------------------------------------------------*/
 .services{
-  background-image:url(../img/f5.jfif);
+  background-image:url(../img/backG2.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
   background-position: center;
@@ -918,12 +933,12 @@ text-align: center;
 .services .section-title h2{
   font-weight: 700;
   font-size: 56px;
-  color: azure;
+  color: #C70039;
   text-shadow: 2px 1px 1px red;
   text-align: center;
 }
 .services .section-title p{
-  color: azure;
+  color: #F4D03F;
   text-align: center;
 }
 .services .icon-box {
@@ -1053,7 +1068,10 @@ margin:2rem;
 # Upcoming events css ends
 --------------------------------------------------------------*/
 
+.why-us{
+  background-image: url(../img/backG5.jpg);
 
+}
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1467,7 +1485,7 @@ margin:2rem;
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq{
-  background-image: url(../img/f5.jfif);
+  background-image: url(../img/backG3.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
   background-position: center;
@@ -1478,14 +1496,14 @@ margin:2rem;
 .section-details h2{
   font-weight: 700;
   font-size: 56px;
-  color: azure;
+  color: #C70039;
   text-shadow: 2px 1px 1px red;
   text-align: center;
 }
 .section-details p{
   font-weight: 700;
   font-size: 25px;
-  color: azure;
+  color: #F4D03F;
   text-align: center;
   margin-bottom: 1rem;
 
@@ -1583,10 +1601,10 @@ margin:2rem;
 # Contact
 --------------------------------------------------------------*/
 #contact{
-  background-image: url(../img/f5.jfif);
+  background-image: url(../img/backG4.jpg);
  background-size: cover;
 position: relative;
-margin-top:4rem;
+margin-bottom: 0px;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -1596,7 +1614,7 @@ background-size: cover;
 .section-titles h1{
   font-weight: 700;
   font-size: 56px;
-  color: azure;
+  color: #C70039;
   text-shadow: 2px 1px 1px red;
   text-align: center;
   
@@ -1604,9 +1622,12 @@ background-size: cover;
 .section-titles p{
   font-weight: 700;
   font-size: 25px;
-  color: azure;
+  color: #F4D03F;
   text-shadow: 2px 1px 1px red;
   text-align: center;
+}
+label{
+  color:#C70039
 }
 .container-fluid h1{
   color: black;
