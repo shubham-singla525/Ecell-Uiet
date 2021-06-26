@@ -1585,6 +1585,202 @@ margin:2rem;
     padding: 0;
   }
 }
+/**.............................................................
+PORTFOLIO
+...............................................................*/
+
+#portfolio{
+background-color: black;
+color: white;
+,margin-bottom:500px;
+}
+.port{
+  text-align: center;
+
+}
+.port h1 ,h3{
+    text-shadow: 2px 1px 1px red ; 
+}
+.port-main{
+  align-content: center;
+  margin:30px;
+}
+.portpic{
+display: grid;
+grid-template-columns:repeat(3,minmax(300px,1fr)); 
+grid-auto-rows: 400px;
+grid-auto-columns: 50px;
+grid-gap: 20px;
+
+}
+.item{
+  border-radius: 20px;
+}
+#item1{
+  grid-row-start: 1;
+  grid-row-end: 2;
+   grid-column-start: 1;
+  grid-column-end: 2;
+     background-image: url(../img/gallery/oic-8.png);
+   background-size: cover;
+   background-position: center;
+}
+#item2{
+  grid-row-start: 2;
+  grid-row-end: 3;
+   grid-column-start: 1;
+  grid-column-end: 2;
+   background-image: url(../img/gallery/gallery-2.jpg);
+   background-size: cover;
+      background-position: center;
+}
+#item3{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+   background-image: url(../img/gallery/oic-5.jpeg);
+  
+      background-position: center;
+
+  }
+#item4{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+   background-image: url(../img/gallery/gallery-1.jpg);
+   background-size: cover;
+  }
+#item5{
+  grid-row-start: 1;
+  grid-row-end: 3;
+   grid-column-start: 3;
+  grid-column-end: 4;
+     background-image: url(../img/gallery/oic-6.jpeg);
+   background-size: cover;
+}
+
+#item6{
+  grid-row-start: 3;
+  grid-row-end: 4;
+   grid-column-start: 3;
+  grid-column-end: 4;
+     background-image: url(../img/gallery/oic-2.jpg);
+   background-size: cover;
+}
+
+@media (min-width:684px )and (max-width: 985px){
+
+#item1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+   grid-column-start: 1;
+  grid-column-end: 3;
+     background-image: url(../img/gallery/gallery-1.jpg);
+   background-size: cover;
+   background-position: center;
+}
+#item2{
+  grid-row-start: 3;
+  grid-row-end: 4;
+   grid-column-start: 1;
+  grid-column-end: 2;
+   background-image: url(../img/gallery/oic-8.png);
+   background-size: cover;
+      background-position: center;
+}
+#item3{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+   background-image: url(../img/gallery/oic-5.jpeg);
+  
+      background-position: center;
+
+  }
+#item4{
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+   background-image: url(../img/gallery/gallery-2.jpg);
+   background-size: cover;
+  }
+#item5{
+  grid-row-start: 4;
+  grid-row-end: 5;
+   grid-column-start: 2;
+  grid-column-end: 3;
+     background-image: url(../img/gallery/oic-2.jpg);
+   background-size: cover;
+}
+
+#item6{
+  grid-row-start: 5;
+  grid-row-end: 7;
+   grid-column-start: 1;
+  grid-column-end: 3;
+     background-image: url(../img/gallery/oic-6.jpeg);
+   background-size: cover;
+}
+}
+@media  (max-width: 683px){
+#item1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+   grid-column-start: 1;
+  grid-column-end: 2;
+     background-image: url(../img/gallery/gallery-1.jpg);
+   background-size: cover;
+   background-position: center;
+}
+#item2{
+  grid-row-start: 3;
+  grid-row-end: 4;
+   grid-column-start: 1;
+  grid-column-end: 2;
+   background-image: url(../img/gallery/oic-8.png);
+   background-size: cover;
+      background-position: center;
+}
+#item3{
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+   background-image: url(../img/gallery/oic-4.jpeg);
+  
+      background-position: center;
+
+  }
+#item4{
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start:1 ;
+  grid-column-end: 2;
+   background-image: url(../img/gallery/gallery-2.jpg);
+   background-size: cover;
+  }
+#item5{
+  grid-row-start: 6;
+  grid-row-end: 7;
+   grid-column-start: 1;
+  grid-column-end: 2;
+     background-image: url(../img/gallery/oic-2.jpg);
+   background-size: cover;
+}
+
+#item6{
+  grid-row-start: 7;
+  grid-row-end: 9;
+   grid-column-start: 1;
+  grid-column-end: 2;
+     background-image: url(../img/gallery/oic-6.jpeg);
+   background-size: cover;
+}
+}
 
 /*--------------------------------------------------------------
 # Contact
