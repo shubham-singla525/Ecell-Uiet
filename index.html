@@ -36,25 +36,25 @@
 <body>
    <!--********popup section*******-->
 
-<!-- <div id="myModal" class="modal fade">
+ <div id="myModal" class="modal fade">
   <div class="modal-dialog ">
       <div class="modal-content">
         <button type="button" class="close closebutton border-light baba" data-dismiss="modal" aria-label="Close" onclick="myFunction()">X</button> 
    
         <div class="modal-header">
     
-            <img class="image" src="assets/img/enact.jpeg"> 
+            <img class="image" style="height:300px;" src="assets/img/enact.jpeg"> 
           </div>
           <div class="modal-body">
-            <h2 class="card-title">EN-ACT Week</h3>
-            <h3 class="card-title">2-6 June,2021</h3>
-            <p class="card-text">A 7 Day Program For Aspiring Enterpreneurs
+            <h2 class="card-title">Alumni Startup</h3>
+            <h3 class="card-title">28th July,2021</h3>
+            <p class="card-text">Lead the Product by Startup
            </p>
             <a href="#up-events" class="linkButton btn btn-danger" onclick="myFunction1()"><strong>Know More</strong></a>
           </div>
       </div>
   </div>
-</div> -->
+</div> 
 
 <!--*********Popup section close-->
 
@@ -63,8 +63,7 @@
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
     <!-- Uncomment below if you prefer to use an image logo -->
-       <a href="index.html" class="wow animate__animated
-       animate__swing logo" data-wow-duration="3s"><img src="./assets/img/title.png" alt="" class="img-fluid"></a>
+       <a href="index.html" class="logo" ><img src="./assets/img/title.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -112,14 +111,12 @@
                 <p class="wow animate__animated animate__fadeInTopRight"
                 data-wow-delay="1.5s">IDEATE | INNOVATE | INCUBATE</p>
                 
-                <h2 class="wow animate__animated animate__bounceInDown"
-                data-wow-delay="1.5s">THE ENTREPRENEURSHIP CELL</h2>
-                <h2 class="wow animate__animated animate__heartBeat"
-                 data-wow-duration="1s">UIET KUK</h2>
+                <h2>THE ENTREPRENEURSHIP CELL</h2>
+                <h2>UIET KURUKSHETRA</h2>
                 <p class="wow animate__animated animate__fadeInUp"
                 data-wow-delay="1.5s">“Identify your Problems and put in energy to accomplish Solutions.” </p>
                 <div>
-                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Explore</a>
+                  <a href="#up-events" class="btn-get-started animate__animated animate__fadeInUp scrollto">Explore</a>
                 </div>
               </div>
             </div>
@@ -142,20 +139,54 @@
  
   <main id="main">
 
+    <!--=========Event Details Secion Starts=======-->
+    <section class="container">
+      <h1 class="head">Upcoming Events</h1>
+      <div id="carouselExampleIndicators" class="container carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner mycarousel">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./assets/img/backG4.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/img/backG5.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./assets/img/backG3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    
+    
+    <!--=========Event Details Secion Ends=======-->
+
     <!-- ======= About Section ======= -->
     
-    <section id="about" class="wow animate__animated animate__zoomIn about"  >
+    <section id="about" class="about"  >
       
 
       <div class="container sample">
        
-        <h1 style="color:#C70039;" >About</h1>
+        <h1>About</h1>
         <div class=" row no-gutters">
-          <div class="wow animate__animated animate__backInLeft  image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"
            ></div>
             
 
-          <div class="wow animate__animated animate__backInRight col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch"
+          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch"
               >
             <div class="content d-flex flex-column justify-content-center">
               
@@ -191,26 +222,26 @@
 
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             
-            <img src="assets/img/logo/kuk.png" class="wow animate__animated animate__backInLeft img-fluid image-size"
+            <img src="assets/img/logo/kuk.png" class="wow animate__animated animate__slideInUp img-fluid image-size"
                alt="" width="50%" height="50%">
 
           </div>
 
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             
-            <img src="assets/img/logo/mic.jpg" class="wow animate__animated animate__zoomInDown img-fluid image-size"
+            <img src="assets/img/logo/mic.jpg" class="wow animate__animated animate__slideInUp img-fluid image-size"
            alt="" width="60%" height="50%">
           </div>
 
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             
-             <img src="assets/img/logo/aicte.jpg" class="wow animate__animated animate__zoomInUp img-fluid image-size"
+             <img src="assets/img/logo/aicte.jpg" class="wow animate__animated animate__slideInUp img-fluid image-size"
               alt="" width="50%" height="50%">
           </div>
 
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             
-             <img src="assets/img/logo/iic.png" class="wow animate__animated animate__backInRight img-fluid image-size"
+             <img src="assets/img/logo/iic.png" class="wow animate__animated animate__slideInUp img-fluid image-size"
               alt="" width="80%" height="50%">
           </div>
 
@@ -244,17 +275,17 @@
         </div>
 
         <div class=" row" >
-          <div class="wow animate__animated animate__lightSpeedInRight col-lg-4 col-md-6 icon-box"
+          <div class="wow animate__animated animate__fadeIn col-lg-4 col-md-6 icon-box"
          >
             <div class="icon"><i class="bi bi-brightness-high"></i></div>
             <h4 class="title">Ideate</h4>
           </div>
-          <div class="wow animate__animated animate__lightSpeedInRight col-lg-4 col-md-6 icon-box"
+          <div class="wow animate__animated animate__fadeIn col-lg-4 col-md-6 icon-box"
           >
             <div class="icon"><i class="bi bi-binoculars"></i></div>
             <h4 class="title">Innovate</h4>
           </div>
-          <div class="wow animate__animated animate__lightSpeedInRight col-lg-4 col-md-6 icon-box"
+          <div class="wow animate__animated animate__fadeIn col-lg-4 col-md-6 icon-box"
       >
             <div class="icon"><i class="bi bi-bar-chart"></i></div>
             <h4 class="title">Incubate</h4>
@@ -268,7 +299,7 @@
     </section><!-- End Services Section -->
 
     <!-- ======= Upcoming Events Section ======= -->
-    <section id="up-events" class="why-us">
+    <!-- <section id="up-events" class="why-us">
       <div class="container">
 
         <div class="section-title2">
@@ -287,7 +318,7 @@
             <video src="assets/img/EN-ACT.mp4" height="380px" width="350px" controls="" muted="" poster="assets/img/EN-ACT2.jpeg" ></video>
           </div>
           </div>
-        </div>
+        </div> -->
 
        <!-- <a href="./active-events.html"> <div class="row">
           <div class="col-lg-4">
@@ -326,15 +357,14 @@
       <section id="idea-submission" class="faq section-bg">
       <div class="container">
 
-        <div class="wow animate__animated animate__rollIn section-details"
+        <div class="section-details"
          >
           <h2 >Give wings to your Ideas</h2>
           <p>Always Remember: <b>“What is now proved was once only imagined”</b>, So give wings to your ideas and start Innovating. Don't forget: <b>“The only way to discover the limits of the possible is to go beyond them into the impossible”</b>.</p>
         </div>
         <div class="faq-list">
           <ul>
-            <li class="wow animate__animated animate__rotateInUpRight"
-              data-aos="fade-up">
+            <li>
                <i class="bx bx-info-circle icon-help"></i><a data-bs-toggle="collapse" class="collapsed" data-bs-target="#form" >If you have any Business idea shoot it here. <i class="bi bi-arrows-fullscreen icon-show "></i><i class="bi bi-arrows-move icon-close"></i></a>
               <div id="form" class=" collapse vh-100" data-bs-parent=".faq-list" style="height: 100%;width:100%">
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5xGeQiI7I3NUYzrbw3_bJMoH__YTEdL-Jb8XxVZpd_EdAPw/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
@@ -745,9 +775,9 @@
         </div>
         <div class="container-fluid  mb-5">
        
-        <div class="wow animate__animated animate__fadeIn form-box mx-auto shadow p-3 mb-5 bg-white rounded adjust"
+        <div class="form-inside wow animate__animated animate__slideInUp form-box mx-auto shadow p-3 mb-5 bg-white rounded adjust"
          >
-          <form method="post" autocomplete="off" name="google-sheet">
+          <form method="post" autocomplete="off" name="google-sheet" >
             <div class="form-group">
               <label for="text">Name</label>
               <input type="text" class="form-control" name="name" placeholder="Enter your name:" required>
@@ -839,7 +869,7 @@
  </div>
  <div class="credits">
  With <span style="color:red;">❤</span>  from ECell, Uiet Kurukshetra
- <img src="https://hitwebcounter.com/counter/counter.php?page=7830571&style=0009&nbdigits=4&type=ip&initCount=0" title="Counter" Alt="web counter"   border="0" />                                  
+ <img class="counter" src="https://hitwebcounter.com/counter/counter.php?page=7830571&style=0009&nbdigits=4&type=ip&initCount=0" title="Counter" Alt="web counter"   border="0" />                                  
 
 </div>
 
